@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="checkout.css">
+    <title>Checkout Page</title>
+</head>
+
+<body>
+    <!-- header -->
+    <h1 class="text-center head m-4">Checkout Page</h1>
+    <!-- header -->
+    <!-- icons starts here -->
+    <div class="icons">
+        <div class="row mr-0">
+            <div class="col-sm-6">
+                <h2 class="m-5 bord shadow-lg"><i class="fas fa-dollar-sign bg p-4 mr-4"></i>Cash on Delivery</h2>
+            </div>
+            <div class="col-sm-6 ">
+                <h2 class="m-5 bord shadow-lg"><i class="fas fa-arrows-alt-h bg p-4 mr-4"></i>100% Return</h2>
+            </div>
+        </div>
+
+        <div class="row mr-0">
+            <div class="col-sm-6">
+                <h2 class="m-5 bord shadow-lg"><i class="far fa-thumbs-up bg p-4 mr-4"></i>Quality Assured</h2>
+            </div>
+            <div class="col-sm-6 ">
+                <h2 class="m-5 bord shadow-lg"><i class="fas fa-stopwatch bg p-4 mr-4"></i>Delivery on time</h2>
+            </div>
+        </div>
+    </div>
+    <!-- icons end here -->
+    <!-- Checkout starts here -->
+    <form class="form">
+        <div class="row bord p-4 shadow-lg m-5">
+            <div class="col-sm-6">
+                <div class="col-sm-6 mt-2 row">
+                    <h5 class="my-auto">First Name :</h5>
+                    <input class="ml-3 name input" type="text" placeholder="First Name" required />
+                <p class="err">Enter alphabets please!!</p>
+                </div>
+                <div class="col-sm-6 mt-2 row ">
+                    <h5 class="my-auto">Email :</h5>
+                    <input class="ml-3 input" type="email" placeholder="Email" required />
+                </div>
+                <div class="col-sm-6 mt-3 row ">
+                    <h5 class="my-auto">Address :</h5>
+                    <input class="ml-3 input" type="text" placeholder="Address" required />
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="col-sm-6 mt-2 row">
+                    <h5 class="my-auto name my-auto">Last Name :</h5>
+                    <input class="ml-3 input" type="text" placeholder="Last Name" required />
+                </div>
+                <div class="col-sm-6 mt-2 row">
+                    <h5 class="my-auto my-auto">Password :</h5>
+                    <input class="ml-3 input caps" title="(4-8 characters)" type="password" minlength="4" maxlength="8"
+                        placeholder="Password" required />
+                    <p id="text">Your Caps-Lock is on!</p>
+                </div>
+                <div class="col-sm-6 mt-3 row">
+                    <h5 class="my-auto my-auto">Phone Number :</h5>
+                    <input class="ml-3 validation input" type="number" placeholder="Phone No." required />
+                    <p class="text">Invalid phone number!!</p>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Checkout ends here -->
+        <!-- Buy button -->
+        <div class="m-5 final text-center">
+            <button type="submit" id="btn" class="p-2 px-4 btn shadow-lg" onclick="validate()"><i class="fas fa-cart-arrow-down p-2"></i>Buy</button>
+        </div>
+    </form>
+    <!-- Buy Button -->
+    <!-- script tags -->
+    <script src="checkout.js"></script>
+
+</body>
+
+</html>
