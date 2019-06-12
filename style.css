@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+body{
+    background-color: rgb(241, 180, 158);
+    font-family: Poppins;
+}
+.btn{
+    background-color: rgb(0, 0, 0);
+    color: rgb(241, 180, 158);
+    font-size: 25px;
+}
+.btn:hover{
+    color:  rgb(238, 199, 185);
+    width: 150px;
+}
+@media only screen and (max-width: 445px) {
+   i{
+       margin: 0;
+   }
+  }
