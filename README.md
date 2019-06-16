@@ -24,3 +24,6 @@ It is a Shopping Cart project that has a checkout page too.
 * Choose the items.
 * See your cart that shows the Bill too.
 * Fill the checkout Page.
+
+## You can watch it live here:
+https://devnoorfatima.github.io/Projects/shopping-cart/
